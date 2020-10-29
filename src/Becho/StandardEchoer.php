@@ -2,7 +2,7 @@
 
 namespace Becho;
 
-class VanillaEchoer implements Echoer
+class StandardEchoer implements Echoer
 {
     function echo($text, $options=[])
     {

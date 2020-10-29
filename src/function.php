@@ -23,7 +23,7 @@ function ensureBechoClasses()
 {
     if (!class_exists("\\Becho\\Becho")) {
         require 'Becho/Echoer.php';
-        require 'Becho/VanillaEchoer.php';
+        require 'Becho/StandardEchoer.php';
         require 'Becho/Becho.php';
     }
 }
