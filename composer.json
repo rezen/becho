@@ -1,0 +1,43 @@
+{
+	"name": "rezen/becho",
+	"type": "library",
+	"description": "You know, echo, but better!",
+	"keywords": [
+		"echo",
+		"becho"
+	],
+	"homepage": "https://github.com/rezen/becho",
+	"support": {
+		"issues": "https://github.com/rezen/becho/issues",
+		"source": "https://github.com/rezen/becho"
+	},
+	"license": "MIT",
+	"authors": [{
+		"name": "Andres Hermosilla",
+		"homepage": "https://ahermosilla.com"
+	}],
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"bin": [],
+	"require": {
+		"php": ">=7.2.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Becho\\": "src/Becho"
+
+		},
+		"files": [
+			"src/function.php"
+		],
+		"exclude-from-classmap": []
+	},
+	"autoload-dev": {
+		"psr-4": {
+			
+		}
+	}
+}
